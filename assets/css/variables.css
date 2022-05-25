@@ -7,3 +7,7 @@
 .js [data-anime] {
     opacity: 0;
 }
+
+.js [data-slide] {
+    position: relative;
+}

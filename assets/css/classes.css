@@ -160,10 +160,12 @@
     display: block;
     width: 60px;
     height: 3px;
-    background: #000;
     margin: 8px auto;
 }
 
+.portifolio .subtitulo:after {
+    background: #fec63e;
+}
 
 .produtos-lista li h3:after {
     content: "";
@@ -177,3 +179,46 @@
 .container:after {
     clear: both;
 }
+
+.portifolio {
+    width: 100%;
+    background: #000;
+    padding: 40px 0;
+}
+
+.portifolio .subtitulo {
+    color: #fec63e;
+}
+
+.subtitulo {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.portifolio-lista div {
+    margin-top: 20px;
+}
+
+.call {
+    padding-top: 40px;
+    text-align: center;
+    clear: both;
+}
+
+.portifolio .call p {
+    color: #fff;
+}
+
+.call p {
+    margin-bottom: 20px;
+}
+
+
+
+
+
