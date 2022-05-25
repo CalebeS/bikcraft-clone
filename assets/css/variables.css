@@ -1,0 +1,9 @@
+.js .anime {
+    opacity: 1;
+    transform: none;
+    transition: opacity 800ms, transform 800ms;
+}
+
+.js [data-anime] {
+    opacity: 0;
+}
