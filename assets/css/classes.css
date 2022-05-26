@@ -243,3 +243,86 @@
     margin: 6px auto;
 }
 
+.quebra {
+    width: 100%;
+    height: 220px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.quebra {
+    background: url(https://bikcraft.com/wp-content/uploads/2015/10/bg-footer.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.quebra .quote-externo {
+    max-width: 400px;
+}
+
+.grid-8 {
+    width: 460px;
+}
+
+.footer-historia {
+    padding-right: 40px;
+}
+
+.footer {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+
+.footer h3 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #fec63e;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.grid-4 {
+    width: 220px;
+}
+
+.footer-contato ul li {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-redes  {
+    display: contents;
+}
+
+.footer-redes ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-redes ul li a {
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 7px;
+    transition: all .5s ease;
+}
+
+.footer h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fec63e;
+    margin: 6px 0 12px 0;
+}
+
+.copy {
+    width: 100%;
+    background: #fec63e;
+    padding: 20px 0;
+    
+}
